@@ -1,7 +1,7 @@
-@calendar_events
+@calendar_events @CYB-1
 Feature: As user, I want to be able to create calendar events
 
-  @smoke
+  @smoke @CYB-1
   Scenario: Create calendar event with default time
     Given user is on the login page
     And user logs in as a "store manager"
